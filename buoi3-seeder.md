@@ -30,6 +30,9 @@
 
 - Chuẩn bị:
     - Đưa DB về trạng thái mới nhất (sau khi thêm cột trong bảng `users` & `posts`).
+    ```
+    php artisan rollback
+    ```
 
 - Khai báo việc revert DB trong function `down`:
     - Các cột được thêm vào ở function `up` thì sẽ được *drop* ở function `down`.
@@ -118,4 +121,4 @@ Sau đó, kiểm tra DB ta sẽ thấy các dữ liệu fake đã được tạo
 
 #### Note:
 - Hướng dẫn sv tạo repo, đẩy code lên repo & tạo PR.
-- Document URL:
+- Document URL: https://github.com/HoangTien339/web4012_giao_an
