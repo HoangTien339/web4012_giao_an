@@ -38,7 +38,11 @@ php artisan db:seed
 - Trong dự án thực tế khi làm việc cả 1 team lớn
     -> việc quản lí source code (mã nguồn) gặp trở ngại rất lớn: các thành viên phát triển các tính năng khác nhau -> khi ghép code sẽ xảy ra xung đột.
     
-- Git là công cụ quản lí source code (mã nguồn),         giúp team quản lí source code (quản lí phiên bản,    version ...) 1 cách thuận tiện.
+- Git là công cụ quản lí source code (mã nguồn), giúp team quản lí source code (quản lí phiên bản, version ...) 1 cách thuận tiện.
+
+- Git có 2 nơi lưu trữ code:
+    - local: máy tính cá nhân, là khi phát triển tính năng mới.
+    - repo: github, bit bucket, là nơi lưu trữ & chia sẻ code chính trong team.
 
 ### 2.2. Git Flow
 - Git quản lí các thay đổi theo từng commit.

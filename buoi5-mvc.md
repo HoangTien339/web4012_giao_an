@@ -7,8 +7,7 @@ Nội dung buổi học:
     - Controller
     - Model
     - View
-- Tạo route/controller/model/view. (8đ)
-- Đẩy code lên Git. (2đ)
+- Route trong Laravel.
 
 ## 1. Mô hình MVC
 - MVC: Model - View - Controller: chỉ là thư mục?
@@ -31,4 +30,29 @@ Mô hình MVC ko chỉ là tách riêng folder, mà là mô hình chia tầng đ
 
 ## 2. MVC trong Laravel.
 
-- 
+- Gồm 4 thành phần:
+    - Route             routes/web.php
+    - Controller        app/Http/Controllers
+    - Model             app/
+    - View              resoureces/view
+
+- Flow hoạt động của MVC trong Laravel.
+- Tạo folder **Models** trong thư mục app.
+
+## 3. Route trong Laravel
+
+- Tạo basic route với closure & trả về view.
+- Đặt tên cho route
+- Truyền params vào route
+- Liệt kê các route trong project
+```
+php artisan route:list
+```
+
+## 4. Git <tiếp>
+
+- Đẩy code lên Git
+- Tạo PR
+
+## Yêu cầu về nhà
+- Tải AdminLTE
