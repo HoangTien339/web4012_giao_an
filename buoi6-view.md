@@ -73,9 +73,13 @@
     - [Code mẫu](https://github.com/HoangTien339/laravel_web_4012/pull/1/files)
 
 - BTVN:
-    - Tạo view posts.blade.php có 4 phần:
+    - Tạo view layouts.blade.php có 4 phần:
         - headers
         - sidebars
         - contents
         - footer
-    - Đẩy code lên github 
+    - Các phần cần được tách riêng ra các file blade & được include lại trong file layouts
+    - Tạo view posts.blade.php kế thừa lại view layouts.
+    - View posts sẽ hiển thị danh sách các bài post (data được fake bằng factory).
+    - Trong trường hợp không có bài post nào sẽ hiển thị text "No Data"
+    - Đẩy code lên github & mail lại link PR.
