@@ -1,4 +1,4 @@
-# Buổi 8: Model Eloquent - 1
+# Buổi 7: Model Eloquent - 1
 
 - Nội dung buổi học:
     - Các khái niệm cơ bản trong model
@@ -153,3 +153,11 @@ $user->delete();
 
 ### 1.4. Route Model Binding
 ## 2. Tạo view create user.
+- Tạo view có form gồm:
+    - username -> input type text
+    - email -> input type email
+    - date of birth -> input date picker (dùng bootstrap hoặc AdminLTE)
+- *Note*:
+    - @csrf
+    - action/method
+    - @stack & @push('')/@endpush
