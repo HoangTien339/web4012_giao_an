@@ -1,6 +1,6 @@
 ## 1. Thời hạn nộp assignment
-- 12/10/2019: chấm assignment 1: phần 1,2,3,4
-- 22/10/2019: chấm assignment 2: phần 4,5,6
+- 12/10/2019: chấm assignment 1: phần 1,2,3,4,5
+- 22/10/2019: chấm assignment 2: phần 6,7
 
 
 ## 2. Nội dung bài assignment
@@ -9,9 +9,10 @@
 3. Route
     3.1. name, get/post, redirect, params
     3.2. group, prefix
-4. Layout cho từng phần giao diện
-5. Validate
-6. Auth + Middleware
+4. MVC
+5. Layout cho từng phần giao diện
+6. Validate
+7. Auth + Middleware
 
 ### Mô tả chi tiết
 - Xây dựng 1 blog:
