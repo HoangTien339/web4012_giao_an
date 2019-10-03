@@ -7,7 +7,9 @@
 1. CRUD 4 bảng
 2. Migration/Seeder/Model đầy đủ
 3. Route
+
     3.1. name, get/post, redirect, params
+
     3.2. group, prefix
 4. MVC
 5. Layout cho từng phần giao diện
