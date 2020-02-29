@@ -57,3 +57,5 @@
    - Tất cả các bảng đều cần timestamp của Laravel
    - Khóa chính trong bảng đặt là `id`.
    - Khóa ngoại đặt theo convention: `user_id`, `post_id`, ...
+   - Yêu cầu validate với message tiếng việt.
+
